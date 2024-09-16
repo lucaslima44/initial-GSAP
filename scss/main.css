@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #03000c;
+}
+
+.s-others {
+  width: 100%;
+  height: 100vh;
+  background-color: gray;
+}
+
+.s-nfts {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.s-nfts > div {
+  position: relative;
+  width: 100%;
+  max-width: 1216px;
+  height: 426px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.s-nfts img {
+  position: absolute;
+  top: 0;
+}
+.s-nfts img:nth-child(1) {
+  z-index: 4;
+}
+.s-nfts img:nth-child(2) {
+  z-index: 3;
+}
+.s-nfts img:nth-child(3) {
+  z-index: 2;
+}
+.s-nfts img:last-child {
+  z-index: 1;
+}/*# sourceMappingURL=main.css.map */
